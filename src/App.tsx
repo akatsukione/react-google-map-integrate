@@ -1,9 +1,9 @@
 import MapComponent from "./components/GoogleMap";
-import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div style={{ width: "100vw", height: "100%" }}>
+      <h1>This is the google map integration test for Picasso module</h1>
       <MapComponent />
     </div>
   );
