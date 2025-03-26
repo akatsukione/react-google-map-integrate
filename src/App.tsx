@@ -1,4 +1,5 @@
 import MapComponent from "./components/GoogleMap";
+import "./GoogleMap.css";
 
 function App() {
   return (
